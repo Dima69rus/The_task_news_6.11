@@ -87,9 +87,13 @@ article:nth-child(2n+2) {
     background: rgb(233, 185, 96);
   }
 
+h2 {
+    position: relative;
+}
+
 .new::before {
       content: "new";
       color: rgb(252, 84, 84);
       position: absolute;
-      left: 500px;
+      left: -70px;
   }
